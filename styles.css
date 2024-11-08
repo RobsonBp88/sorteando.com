@@ -1,0 +1,81 @@
+/* styles.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 140vh;
+    background: linear-gradient(135deg, #000, #007bff);
+    margin: 0;
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 50px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 50%;
+    max-width: 700px;
+    border-bottom: 20%;
+}
+
+.dado-img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.input-group {
+    margin: 20px 0;
+    text-align: center; /* Centraliza o conteúdo do input-group */
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+input {
+    width: 60%; /* Diminui o tamanho dos inputs para 60% */
+    padding: 15px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 0 auto; /* Centraliza os inputs */
+    display: block; /* Necessário para a centralização */
+}
+
+#resultado {
+    font-size: 1.8rem;
+    margin: 30px 0;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 15px 40px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #0056b3;
+}
